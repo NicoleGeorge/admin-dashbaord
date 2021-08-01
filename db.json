@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post One",
+      "body": "This is the post body",
+      "publishedAt": "01-089-2021"
+    },
+    {
+      "id": "2",
+      "title": "Post Two",
+      "body": "This is the post body",
+      "publishedAt": "01-089-2021"
+    },
+    {
+      "id": "3",
+      "title": "Post Three",
+      "body": "This is the post body",
+      "publishedAt": "01-089-2021"
+    },
+    {
+      "title": "Post Four",
+      "body": "This is the body",
+      "publishedAt": "01-08-2021",
+      "id": "h5GU6dC"
+    }
+  ],
+  "users": [
+    {
+      "id": "4",
+      "name": "Jane Doe",
+      "email": "jane@eample.com"
+    },
+    {
+      "title": "Post Four",
+      "body": "This is the body",
+      "publishedAt": "01-08-2021",
+      "id": "rmXVQWL"
+    }
+  ]
+}

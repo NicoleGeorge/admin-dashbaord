@@ -1,0 +1,26 @@
+{
+  "name": "admin-dashbaord",
+  "version": "1.0.0",
+  "description": "creating an interface using React Admin &amp; implement a fake REST API with JSON-Server",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleGeorge/admin-dashbaord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleGeorge/admin-dashbaord/issues"
+  },
+  "homepage": "https://github.com/NicoleGeorge/admin-dashbaord#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "json-server": "^0.16.3"
+  }
+}
